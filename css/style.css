@@ -446,6 +446,7 @@ bottom: -30px;
     display: inline-block;
     padding: 25px;
 }
+
 .item_introtext span {
     font-size: 20px;
     display: block;
@@ -486,7 +487,7 @@ font-style: italic;
 }
 section.callaction {
 	background:#fff;
-	padding:50px 0 0 0;
+	padding:10px 0 0 0;
 }
 
 
