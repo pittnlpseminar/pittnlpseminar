@@ -74,25 +74,22 @@
 		<div class="row">
 		<div class="col-md-12 text-left">
 			<div class="speaker-pic" style="display: inline-block">
-				<img src="img/passonneau.jpeg">
+				<img src="img/Varun_AAAI2020_small.jpg">
 			</div>
 			<div>
-			<h3> Rebecca Passonneau </h3>
-			<p><b> Pennsylvania State University </b></p>
-			<p><b> Time:</b> 10/8/2021, 12:30pm EST</p>
+			<h3> Varun Gangal </h3>
+			<p><b> Carnegie Mellon University </b></p>
+			<p><b> Time:</b> 10/15/2021, 12:30pm EST</p>
 			<p><b> Place:</b> Zoom</p>
-			<p><b> Title:</b> The ABCDs of NLP for Assessment of Student Writing</p>
-			<p><b> Topic:</b> Educational Applications of NLP </p>
-			<p><b>Abstract:</b> Application of natural language processing techniques to the assessment of student writing has the potential to alter current instructional methods for the better, to improve our understanding of the challenges for manual assessment, and not least, to provide
-new and interesting problems for NLP.  The potential opportunity for NLP is that for at least a decade, educators have voiced concerns that students do not write well, that instructors’ primary training in subject matter education leaves them ill-equipped to
-help students write better, and that nevertheless, assessment of student writing remains an important vehicle for instructors to assess students’ understanding of ideas. Neither people nor machines can alone provide everything we want from writing assessment,
-but together they are likely to get closer to the ideal. The main hurdle to leap before NLP can achieve its potential in this arena is to provide interpretable assessment. In this talk, I discuss work from my lab that addresses interpretable assessment of student
-writing in the face of NLP’s reliance on uninterpretable models and representations.
-	<p><b>Bio:</b> Becky Passonneau has been a Professor in the Department of Computer Science and Engineering at Penn State University since 2016. Her research in natural language processing is on computational pragmatics. That is, she investigates how the same combinations
-of words have different meanings and intents in different contexts, and conversely, how the same meaning or intent can be expressed in different ways in a given context. She received her PhD in Linguistics from the University of Chicago in 1985, and worked
-at several academic and industry research labs before joining Penn State. Her work is reported in over 130 publications in journals and refereed conference proceedings, and has been funded through 27 sponsored projects  from 14 sources, including government
-agencies, corporate sponsors, corporate gifts, and foundations.
-			</p>
+			<p><b> Topic:</b> Natural Language Generation </p>
+			<p><b>Bio:</b> Varun is a PhD student at CMU LTI, advised by Eduard Hovy. His research is broadly on language generation, with specific interests in style transfer, data-to-text generation, narrative generation and low-resource & creative generation. He is also interested in Data Augmentation (DA), with specific interests in DA for generation, DA for better evaluating models and their robustness to domain shift. His work received the Best Long Paper award at INLG `21 and has appeared at ACL, EMNLP, NEURIPS and AAAI. He has co-organized the GEM workshop at ACL `21 and the upcoming CtrlGen workshop at NEURIPS `21.
+					</p>
+			<p><b> Title1:</b> Towards Endowing Generators with Style, Creativity and Commonsense </p>
+			<p><b> Abstract1:</b> Over the span of this decade, NLG systems responding back, suggesting to and co-authoring language with humans have not just become technologically viable, but are now an accepted part of the social milieu in all geographies with basic levels of internet smartphone access. With generator models being deployed to a wider range of more specific applications, task specifications and user expectations increasingly require models to not just generate text which is content-adequate and fluent, but can also exhibit and be controlled to imbibe stylistic aspects and creative devices. In our work, we studied settings which required transferring or controlling for diachronic, persona and narrative-based style. Furthermore, we also devise NLG models for generating creative devices such as portmanteaus and figurative language.
+
+The newly improved fluency and adequacy of NLG model outputs has also brought to the fore previously occluded issues, a prominent one being poor commonsense plausibility in generated outputs, as shown by the CommonGen task (Lin et al 2020). Our work discovers two distinct mechanisms to improve the performance of SOTA generators such as BART and T5 on CommonGen. First, we show how models can "self-introspect" on initial outputs to expand input information, leading to more fluent and plausible final outputs. Second, we investigate the use of multimodal information contained in images as an effective method for enhancing the performance of generator models for Commongen. Our approach involves captioning images representing appropriate everyday scenarios, and using these captions to enrich and steer the generation process.
+			<p><b> Title2:</b> Data Augmentation for Finetuning and Evaluating Generators Better </p>
+			<p><b> Abstract2:</b> First, we propose and evaluate GenAug, a suite of multiple augmentation methods, including some that incorporate external knowledge, for finetuning conditional generators in low-resource settings. Our experiments demonstrate that insertion of character-level synthetic noise and keyword replacement with hypernyms are effective augmentation methods, and outperform the randomized methods known to work well for text classification across several diversity and fluency metrics. Second, we investigate a seldom-explored use of data augmentation - to expand the set of references used to evaluate generators at test-time. We propose SCARCE, a novel technique for automatically expanding reference sets. We fetch plausible references from knowledge sources, and adapt them so that they are more fluent for the context in question. More specifically, we use (1) a commonsense KB to elicit a large number of plausible reactions given the context (2) relevant instances retrieved from corpus, using similar contexts. We demonstrate that our automatically expanded reference sets lead to large improvements in correlations of automated metrics with human ratings of system outputs for DailyDialog dataset.
 			</div>
 		</div>
 		</div>
@@ -104,6 +101,32 @@ agencies, corporate sponsors, corporate gifts, and foundations.
 			</div>
 			<hr>
 			<hr>
+
+			<div class="row">
+			<div class="col-md-12 text-left">
+				<div class="speaker-pic" style="display: inline-block">
+					<img src="img/passonneau.jpeg">
+				</div>
+				<div>
+				<h3> Rebecca Passonneau </h3>
+				<p><b> Pennsylvania State University </b></p>
+				<p><b> Time:</b> 10/8/2021, 12:30pm EST</p>
+				<p><b> Place:</b> Zoom</p>
+				<p><b> Title:</b> The ABCDs of NLP for Assessment of Student Writing</p>
+				<p><b> Topic:</b> Educational Applications of NLP </p>
+				<p><b>Abstract:</b> Application of natural language processing techniques to the assessment of student writing has the potential to alter current instructional methods for the better, to improve our understanding of the challenges for manual assessment, and not least, to provide
+	new and interesting problems for NLP.  The potential opportunity for NLP is that for at least a decade, educators have voiced concerns that students do not write well, that instructors’ primary training in subject matter education leaves them ill-equipped to
+	help students write better, and that nevertheless, assessment of student writing remains an important vehicle for instructors to assess students’ understanding of ideas. Neither people nor machines can alone provide everything we want from writing assessment,
+	but together they are likely to get closer to the ideal. The main hurdle to leap before NLP can achieve its potential in this arena is to provide interpretable assessment. In this talk, I discuss work from my lab that addresses interpretable assessment of student
+	writing in the face of NLP’s reliance on uninterpretable models and representations.
+		<p><b>Bio:</b> Becky Passonneau has been a Professor in the Department of Computer Science and Engineering at Penn State University since 2016. Her research in natural language processing is on computational pragmatics. That is, she investigates how the same combinations
+	of words have different meanings and intents in different contexts, and conversely, how the same meaning or intent can be expressed in different ways in a given context. She received her PhD in Linguistics from the University of Chicago in 1985, and worked
+	at several academic and industry research labs before joining Penn State. Her work is reported in over 130 publications in journals and refereed conference proceedings, and has been funded through 27 sponsored projects  from 14 sources, including government
+	agencies, corporate sponsors, corporate gifts, and foundations.
+				</p>
+				</div>
+			</div>
+			</div>
 
 			<div class="row">
 			<div class="col-md-12 text-left">
